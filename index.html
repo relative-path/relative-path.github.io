@@ -10,10 +10,50 @@
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha256-9mbkOfVho3ZPXfM7W8sV2SndrGDuh7wuyLjtsWeTI1Q=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Open+Sans" rel="stylesheet"> 
+
+    <style>
+      .main.container {
+        margin: 6em 0;
+      }
+
+      body {
+        font-family: "Open Sans", sans-serif;
+      }
+
+      .header {
+        font-family: "Cabin", sans-serif;
+      }
+
+      .ui.menu .item {
+        font-size: 1.5em;
+      }
+    </style>
   </head>
 
   <body>
-    <h1>./relative/path</h1>
-    <h2>Coming soon...</h2>
+    <div class="ui menu">
+      <div class="ui container">
+        <a class="header item" href="/">./relative/path</a>
+      </div>
+    </div>
+
+    <div class="ui main container">
+      <h1 class="ui header">Relative Path</h1>
+      <p>Coming soon...</p>
+    </div>
+
+    <div class="ui footer">
+      <div class="ui center aligned container">
+        <div class="ui section divider"></div>
+        <div class="ui horizontal small divided link list">
+          <a class="item" href="mailto:hi@relativepath.io">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha256-t8GepnyPmw9t+foMh3mKNvcorqNHamSKtKRxxpUEgFI=" crossorigin="anonymous"></script>
   </body>
 </html>
